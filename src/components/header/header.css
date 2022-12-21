@@ -1,0 +1,114 @@
+/* ============== HEADER ============== */
+
+header{
+    width: 1240px;
+    height: 68px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 100px 63px 100px;
+}
+
+@media screen and (max-width: 1300px){
+    header{
+       width: 90%;
+       height: 75px;
+    }
+}
+
+@media screen and (max-width: 822px){
+    header{
+        margin: 25px 100px 25px 100px;
+    }
+}
+
+@media screen and (max-width: 558px){
+    header{
+        height: 50px;
+        margin: 25px auto;
+    }
+}
+
+/* =============== LOGO =============== */
+
+.header-logo{
+    display: block;
+    height: 62px;
+}
+
+.header-link-logo{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 558px){
+    .header-logo{
+       width: 145px;
+       height: 47px; 
+    }
+}
+
+/* ================ NAV ================ */
+
+.BurgerMenu-nav-hidden{
+    display: none; 
+}
+
+@media screen and (max-width: 558px){
+    .nav-normal{
+       align-self: center; 
+    }
+}
+
+@media screen and (max-width: 455px){
+    .nav-normal{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 455px){
+    .BurgerMenu-nav-hidden{
+        display: block;
+        width: 40%;
+    }
+}
+
+/* ================= UL ================= */
+
+ul{
+    list-style: none;
+    padding: 0;
+    width: 309px;
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 558px){
+    ul{
+    width: 100%;
+    margin: 0;
+    }
+}
+
+/* ================= LI ================= */
+
+ul li{
+    display: flex;
+    justify-content: flex-end;
+    width: 136px;
+    height: 34px;
+}
+
+/* =============== LINK =============== */
+
+.header-link{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FF6060;
+}
+
+.header-link:hover{
+    text-decoration: underline 2px #FF6060;
+}

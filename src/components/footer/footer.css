@@ -1,0 +1,42 @@
+/* ============= FOOTER ============= */
+
+footer {
+  width: 100%;
+  height: 209px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ============== LINK ============== */
+
+.footer-link {
+  text-decoration: none;
+  width: 122px;
+  height: 40px;
+  margin-top: 35px;
+  margin-bottom: 29px;
+  display: flex;
+  justify-content: center;
+}
+
+/* =============== P =============== */
+
+p {
+  font-style: normal;
+  color: #ffffff;
+  font-size: 24px;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 390px) {
+  p {
+    width: 100%;
+    font-size: 19px;
+  }
+}

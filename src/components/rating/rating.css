@@ -1,0 +1,13 @@
+/* ============== STARS ============= */
+
+.stars{
+    height: 30px;
+    width: 30px;
+}
+
+@media all and (max-width: 900px){
+    .stars {
+        height: 15px;
+        width: 15px;
+    }
+}

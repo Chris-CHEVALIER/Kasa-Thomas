@@ -1,0 +1,111 @@
+/* ================= OPEN ================= */
+
+.burgerMenu-open{
+    color: #FF6060;
+    background-color: rgba(236, 236, 236, 0.96);
+    border-radius: 15px;
+    max-width: 100%;
+    height: 130px;
+    position: relative;
+    z-index: 1;
+    -webkit-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+/* ================ BUTTON ================ */
+
+.burgerMenu-button{
+    height: 40px;
+    width: 42px;
+    background: none;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+}
+
+.burgerMenu-button span{
+    width: 80%;
+    height: 4px;
+    background-color: #FF6060;
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.burgerMenu-button span::before, .burgerMenu-button span::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #FF6060;
+}
+
+.burgerMenu-button span::before{
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+    right: 1%;
+}
+
+.burgerMenu-button span::after{
+    transform: translateY(10px);
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+    right: 1%;
+}
+
+.burgerMenu-button-cross{
+    color: #FF6060;
+    font-size: 30px;
+    width: 34px;
+}
+
+/* ================== UL =================== */
+
+.burgerMenu-ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0;
+    width: 100%;
+    height: 75px;
+    position: relative;
+    top: 10px;
+}
+
+/* ================== LI =================== */
+
+.burgerMenu-li{
+    width: 100%;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/* ================= LINK ================== */
+
+.burgerMenu-link{
+    font-size: 20px;
+    color: #FF6060;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.burgerMenu-link:hover{
+    text-decoration: underline 2px #FF6060;
+}

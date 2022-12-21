@@ -1,0 +1,51 @@
+/* ============== BODY ============== */
+
+.body{
+    max-width: 1240px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1300px){
+    .body{
+       width: 90%;
+    }
+}
+
+/* =========== COLLECTION =========== */
+
+.collection{
+    max-width: 1240px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #F7F7F7;
+    border-radius: 25px;
+    padding: 50px 0;
+    margin-bottom: 50px;
+    gap: 55px 60px;
+}
+
+@media screen and (max-width: 822px){
+    .collection{
+        background: none;
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .collection{
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .collection{
+        width: 100%;
+    }
+}
+
